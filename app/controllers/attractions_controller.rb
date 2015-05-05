@@ -9,3 +9,4 @@ class AttractionsController < ApplicationController
     @directions = directions["routes"][0]["legs"][0]["steps"]
   end
 end
+
